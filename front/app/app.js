@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 var app = angular.module("app", []).controller("DraggingMarkersController",DraggingMarkersController);
 function DraggingMarkersController($scope, $http) {
 
@@ -11,13 +9,8 @@ function DraggingMarkersController($scope, $http) {
       $scope.list.push(staticIshHelperFunction());
       $scope.list.push($scope.val);
     }
-    var hi = {};
-    hi.hello = 4;
-    hi.goodbye = 'byeye';
-    console.log(JSON.stringify(hi));
 
    var url = "http://localhost:8040/data?callback=JSON_CALLBACK";
-
   $http.jsonp(url).
     success(function(data, status, headers, config) {
         console.log(data);
