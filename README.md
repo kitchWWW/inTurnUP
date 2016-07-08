@@ -1,9 +1,11 @@
 # inTurnUP
-Hackathon project!
+
+Hints
+-----
 
 Hints so far about project:
--mobile
--esri
+* mobile
+* esri
 
 Basic project overview: (current July 7th)
 Back -> Backend Spring/ Java server.
